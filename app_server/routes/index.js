@@ -13,7 +13,7 @@ router.get('/location', ctrlLocations.locationInfo);
 router.get('/location/review/new', ctrlLocations.addReview);
 
 //router.get('/', function(req, res, next) {
-//  res.render('index', { title: 'Suraj' });
+//  res.render('index', { title: 'online shopping' });
 //});
 /*Other Pages*/
 router.get('/about', ctrlOthers.about);
